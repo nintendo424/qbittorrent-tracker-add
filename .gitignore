@@ -1,0 +1,4 @@
+dist
+dev.env
+node_modules
+.idea

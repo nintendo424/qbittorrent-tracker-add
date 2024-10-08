@@ -1,0 +1,22 @@
+{
+  "name": "qbittorrent-tracker-add",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utility to auto-add trackers to qBittorrent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node -r ts-node/register --env-file=dev.env src/index.ts",
+    "build": "tsc"
+  },
+  "author": "nintendo424",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "bree": "^9.2.4"
+  }
+}

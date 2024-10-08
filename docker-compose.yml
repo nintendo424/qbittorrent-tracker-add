@@ -1,0 +1,11 @@
+name: qbittorrent-tracker-add
+
+services:
+  qbittorrent-tracker-add:
+    build: .
+    environment:
+      - QBITTORRENT_ENDPOINT=
+      - QBITTORRENT_USERNAME=
+      - QBITTORRENT_PASSWORD=
+      #- CRON=0 0 * * *
+      #- TRACKER_LIST=https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt
