@@ -7,5 +7,5 @@ services:
       - QBITTORRENT_ENDPOINT=${QBITTORRENT_ENDPOINT}
       - QBITTORRENT_USERNAME=${QBITTORRENT_USERNAME}
       - QBITTORRENT_PASSWORD=${QBITTORRENT_PASSWORD}
-      - INTERVAL=${INTERVAL:-every day at 4:00 am}
+      - INTERVAL=${INTERVAL:-at 4:00 am}
       - TRACKER_LIST=${TRACKER_LIST:-https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt}
