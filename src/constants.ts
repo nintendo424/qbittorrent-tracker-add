@@ -3,8 +3,8 @@ export enum ENVIRONMENT_VARIABLES {
     QBITTORRENT_USERNAME = 'QBITTORRENT_USERNAME',
     QBITTORRENT_PASSWORD = 'QBITTORRENT_PASSWORD',
     TRACKER_LIST = 'QBITTORRENT_TRACKER_LIST',
-    CRON = 'CRON'
-};
+    INTERVAL = 'INTERVAL'
+}
 
 export enum API_ENDPOINTS {
     LOGIN = '/api/v2/auth/login',
@@ -14,5 +14,5 @@ export enum API_ENDPOINTS {
 
 export enum DEFAULTS {
     TRACKER_LIST = 'https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt',
-    HOURLY_CRON = '0 * * * *'
+    DAILY_INTERVAL = 'at 4:00 am'
 }
