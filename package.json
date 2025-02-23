@@ -1,6 +1,6 @@
 {
   "name": "qbittorrent-tracker-add",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Utility to auto-add trackers to qBittorrent",
   "main": "src/index.ts",
