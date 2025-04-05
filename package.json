@@ -1,6 +1,6 @@
 {
   "name": "qbittorrent-tracker-add",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "Utility to auto-add trackers to qBittorrent",
   "main": "src/index.ts",
@@ -12,16 +12,16 @@
   "author": "nintendo424",
   "license": "MIT",
   "devDependencies": {
-    "@tsconfig/node22": "^22.0.0",
-    "@types/node": "^22.10.6",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.14.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@ladjs/graceful": "^4.2.0",
     "bree": "^9.2.4"
   },
   "engines": {
-      "node": ">=22"
+    "node": ">=22"
   }
 }
